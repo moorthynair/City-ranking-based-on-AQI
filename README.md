@@ -12,9 +12,9 @@ The code can be [accessed here](https://github.com/moorthynair/City-ranking-base
 To perform anaysis on the latest AQI bulltein, make sure the bulletin is released by the federal agency. [Access here](https://cpcb.nic.in/aqi_report.php) to check the status of latest AQI bulletin available. The latest bulletin is released in the CPCB website after 4.00PM daily. 5.00PM woluld be an ideal time to run the code for analysing the latest report. In case of unavaibality of AQI bulletin for the set date, a warning message shall pop up terminating the entire run
 
 ## What are the outputs/results?
-The output parent dataframe is named as **'final_file'. The contains the City names, Air Quality status (ie., Good, Satisfactory, Moderate, Poor, Very Poor, Severe); Index value (ie., AQI), crticial pollutants identified and the national level city rank based on AQI for the user defined date. 
+The output parent dataframe is named as **'final_file'**. The contains the City names, Air Quality status (ie., Good, Satisfactory, Moderate, Poor, Very Poor, Severe); Index value (ie., AQI), crticial pollutants identified and the national level city rank based on AQI for the user defined date. 
 
-For user defined city/cities information, the output dataframe named **'city_ranking' is generated contain all the above mentioned information.
+For user defined city/cities information, the output dataframe named **'city_ranking'** is generated contain all the above mentioned information.
 
 ## LICENSE
 The work is licensed under [MIT LICENSE](https://github.com/moorthynair/City-ranking-based-on-AQI/blob/main/LICENSE)
