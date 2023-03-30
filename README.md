@@ -8,6 +8,7 @@ The Central Pollution COntrol Board (CPCB), Government of India releases daily A
 
 ## Code
 The code can be [accessed here](https://github.com/moorthynair/City-ranking-based-on-AQI/blob/main/Ranking_based_on_AQI_code.py). The entire process from downloading the bulletin to ranking the cities as per the AQI levels are automated. There exist 03 basic user input, a) Date (YYYYMMDD format); b) provide the path to download the bulleting pdf file; c)List of specific city of interest (The final analysis provides the rank of all the cities mentioned in the daily AQI bulletin. However in case of exracting the ranks of specific city of interest, the list of those may be provided).
+
 To perform anaysis on the latest AQI bulltein, make sure the bulletin is released by the federal agency. [Access here](https://cpcb.nic.in/aqi_report.php) to check the status of latest AQI bulletin available. The latest bulletin is released in the CPCB website after 4.00PM daily. 5.00PM woluld be an ideal time to run the code for analysing the latest report. In case of unavaibality of AQI bulletin for the set date, a warning message shall pop up terminating the entire run
 
 ## LICENSE
