@@ -12,5 +12,5 @@ The code can be [accessed here](https://github.com/moorthynair/City-ranking-base
 ## Discalimer
 The code is only suitable of performing analysis on the latest [daily AQI bulletin](https://cpcb.nic.in/aqi_report.php) available and not the archieves. You may download the archeive bulletin file seperately and run the same analysis. 
 
-##LICENSE
+## LICENSE
 The work is licensed under [MIT LICENSE](https://github.com/moorthynair/City-ranking-based-on-AQI/blob/main/LICENSE)
