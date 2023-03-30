@@ -70,9 +70,10 @@ for i in range(0,len(final_file)-1):
 
 final_file ## Final result of analysis for all the cities mentioned in the Bulletin
             
-## Filter the city specific rank
-city_list = list_of_cities.split(',')     
-city_ranking = final_file.loc[final_file['City'].isin(city_list), ]
+## Step 6: Filter the city as defined by the user
+if len(list_of_cities)>0:
+    city_list = list_of_cities.split(',')     
+    city_ranking = final_file.loc[final_file['City'].isin(city_list), ]
 
 if len(city_ranking)==0:
     sys.exist('No information for the list of cities as inputed are available in the AQI Bulletin')
