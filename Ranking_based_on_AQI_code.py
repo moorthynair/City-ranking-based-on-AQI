@@ -14,7 +14,7 @@ import sys
 ##User Defined Inputs
 date = input('Enter the date of analysis in the format YYYYMMDD: ') ##example 20230329
 pathway = input('Define the Pathway address to download the bulletin: ') ##example C:/Users/USER/Downloads
-list_of_cities = input('Enter the list of cities seperated by commas: ') ##Example Mumbai,Bangalore,Kolkata. Disclaimer: Make sure the cities mentioned are present in the Bulletin list
+list_of_cities = input('Enter the list of cities seperated by commas and no space: ') ##Example Mumbai,Bangalore,Kolkata. Disclaimer: Make sure the cities mentioned are present in the Bulletin list
 
 ############################# Analysis Begins ################################################
 ## Step 1: Download the bulletin
