@@ -54,7 +54,6 @@ final_file.drop(columns=['index'], inplace=True)
 
 ## Step 5: Assing the rank based on AQI values
 final_file['ranking'] = np.arange(1, len(final_file)+1)
-final_file['Based on number of']= final_file['Based on number of'].astype('int')
 
 for i in range(0,len(final_file)-1):
     if final_file.loc[i,'Index Value']== final_file.loc[(i+1), 'Index Value']:
