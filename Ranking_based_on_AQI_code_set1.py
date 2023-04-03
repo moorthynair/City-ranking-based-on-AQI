@@ -12,11 +12,15 @@ import numpy as np
 import sys
 
 ##User Defined Inputs
-date = input('Enter the date of analysis in the format YYYYMMDD: ') ##example 20230329
+date = input('Enter the date of analysis in the format YYYYMMDD: ') ## Make sure you call dates on or after 29th January 2018 (20180129)
 pathway = input('Define the Pathway address to download the bulletin: ') ##example C:/Users/USER/Downloads
 list_of_cities = input('Enter the list of cities seperated by commas and no space: ') ##Example Mumbai,Bangalore,Kolkata. Disclaimer: Make sure the cities mentioned are present in the Bulletin list
 
 ############################# Analysis Begins ################################################
+## date call check
+if date<'20180129':
+    sys.exit('You are runiing the wrong set of codes. Refer to readme section here')
+
 ## Step 1: Download the bulletin
 k = requests.get('https://cpcb.nic.in//upload/Downloads/AQI_Bulletin_'+str(date)+'.pdf')
 
