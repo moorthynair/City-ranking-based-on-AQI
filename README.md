@@ -11,9 +11,9 @@ The competent authroity started releasing the daily AQI bulletin back from 1st M
 
 ## setting up environment and clonning the repository
 1. Create a new conda environment [`conda create -n enter_your_env-name python=3.9`]
-2. Change the directory [`cd City-ranking-based-on-AQI`]
+2. Change the directory `cd City-ranking-based-on-AQI`
 3. Clone the repository [`git clone https://github.com/moorthynair/City-ranking-based-on-AQI.git`]
-4. install the requirements [`pip install -r reqiurements.txt`]
+4. install the requirements `pip install -r reqiurements.txt`
 
 ## Get the Code runnning
   1. If your date of interest is on or after 29th January 2018. The set-1 codes can be [`Ranking_based_on_AQI_code_set1.py`](https://github.com/moorthynair/City-ranking-based-on-AQI/blob/main/Ranking_based_on_AQI_code_set1.py). 
