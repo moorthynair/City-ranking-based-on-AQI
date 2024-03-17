@@ -19,7 +19,7 @@ list_of_cities = input('Enter the list of cities seperated by commas and no spac
 ############################# Analysis Begins ################################################
 ## date call check
 if date<'20180129':
-    sys.exit('You are runiing the wrong set of codes. Refer to readme section at https://github.com/moorthynair/City-ranking-based-on-AQI.git')
+    sys.exit('You are runing the wrong set of codes. Refer to readme section at https://github.com/moorthynair/City-ranking-based-on-AQI.git')
 
 ## Step 1: Download the bulletin
 k = requests.get('https://cpcb.nic.in//upload/Downloads/AQI_Bulletin_'+str(date)+'.pdf')
