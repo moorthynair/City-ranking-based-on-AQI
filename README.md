@@ -10,11 +10,11 @@ The Central Pollution COntrol Board (CPCB), Government of India releases daily A
 The competent authroity started releasing the daily AQI bulletin back from 1st May 2015. However, the formats in which the bulletin's were released changed a few times making it difficult to analyse using single set of code. Tweak in the exisitng codes will do the  thing. But here, just to avoid complexity I have managed to bring out 2 set of codes for varying date range. The first set code is to analyse the information pertaing to dates on or after 29th January 2018; the second set of code is to analyse between 15th August 2015 to 28th January 2018. I suggest eliminating analysis for dates prior to 15th August 2015 as there seems to have non-uniform bulletin formats every now and then. Make sure you use the right set of codes based on your required date of interest.
 
 ## setting up environment and clonning the repository
-1. Create a new conda environment `conda create -n enter_env-name python=3.9`
-2. Activate the environment `conda activate enter_env-name`
-3. Change the directory `cd City-ranking-based-on-AQI`
-4. Clone the repository `git clone https://github.com/moorthynair/City-ranking-based-on-AQI.git`
-5. install the requirements `pip install -r requirements.txt`
+1. Create a new conda environment ```conda create -n enter_env-name python=3.9```
+2. Activate the environment ```conda activate enter_env-name```
+3. Change the directory ```cd City-ranking-based-on-AQI```
+4. Clone the repository ```git clone https://github.com/moorthynair/City-ranking-based-on-AQI.git```
+5. install the requirements ```pip install -r requirements.txt```
 
 ## Get the Code runnning
   1. If your date of interest is on or after 29th January 2018. The set-1 codes can be [`Ranking_based_on_AQI_code_set1.py`](https://github.com/moorthynair/City-ranking-based-on-AQI/blob/main/Ranking_based_on_AQI_code_set1.py). 
